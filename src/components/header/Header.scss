@@ -1,0 +1,26 @@
+@import './../../styles/variables.scss';
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: $color-red;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.header__logo {
+  height: 30px;
+  padding-left: 50px;
+}
+
+.header__title {
+  margin: 0px;
+  justify-self: center;
+  text-transform: uppercase;
+  font-family: $font-family-primary;
+  font-size: $font-size-h1;
+  font-weight: $font-weight-h1;
+  padding-bottom: 20px;
+}
