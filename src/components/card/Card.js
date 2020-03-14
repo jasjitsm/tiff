@@ -57,7 +57,7 @@ class Card extends React.Component {
                 {movie.tagline &&
                   <span className="card__tagline">Tagline: {movie.tagline}<br/></span>
                 }
-                {movie.runtime &&
+                {(movie.runtime > 0) &&
                   <span className="card__tagline">Runtime: {movie.runtime} minutes</span>
                 }
                 <p className="card__overview">{`${movie.overview}`}</p>
